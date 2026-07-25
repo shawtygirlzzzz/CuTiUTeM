@@ -6,6 +6,9 @@ dist-ssr
 .env.*
 !.env.example
 
+# Wrangler local secrets — holds GEMINI_API_KEY for `wrangler pages dev`. Never commit.
+.dev.vars
+
 # Editor
 .vscode/*
 !.vscode/extensions.json
