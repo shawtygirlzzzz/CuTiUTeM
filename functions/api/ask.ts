@@ -35,10 +35,12 @@ const json = (body: unknown, status = 200): Response =>
 
 const SYSTEM = (today: string, program: string) =>
   `You are a helpful assistant for UTeM students. Answer only from the academic ` +
-  `calendar JSON provided. Today's date is ${today}. The student is in the ${program} ` +
+  `calendar and public holidays JSON provided (academicCalendar + publicHolidays). ` +
+  `Today's date is ${today}. The student is in the ${program} ` +
   `program. Reply in the same language mix the student used — Malay, English, or both. ` +
   `Match their register: casual questions get casual answers. Be brief and ` +
-  `conversational. If the calendar does not contain the answer, say you do not have ` +
+  `conversational. Reply in plain text — no Markdown (no **, #, or bullet symbols). ` +
+  `If the calendar does not contain the answer, say you do not have ` +
   `that information and suggest checking the official UTeM calendar. Never invent dates.`;
 
 async function rateLimited(env: Env, ip: string): Promise<boolean> {
@@ -81,19 +83,42 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     return json({ error: 'Rate limit exceeded. Try again later.' }, 429);
   }
 
-  // Load the calendar server-side from static assets (SDD §6.1).
+  // Load the calendar + public holidays server-side from static assets, so a
+  // client can't inject fabricated data (SDD §6.1). Holidays live in a separate
+  // file (SDD §5.2), but the assistant needs them to answer questions like
+  // "bila cuti raya?" (PRD US-5), so we merge them into the payload here.
   let calendarJson: string;
   try {
-    const assetUrl = new URL(`/data/${session}.json`, request.url);
-    const res = await env.ASSETS.fetch(new Request(assetUrl.toString()));
-    if (!res.ok) return json({ error: 'Calendar not found' }, 404);
-    const data = (await res.json()) as {
-      programs?: Record<string, unknown>;
+    const origin = new URL(request.url);
+    const [sesRes, holRes] = await Promise.all([
+      env.ASSETS.fetch(new Request(new URL(`/data/${session}.json`, origin).toString())),
+      env.ASSETS.fetch(new Request(new URL('/data/holidays-my.json', origin).toString())),
+    ]);
+    if (!sesRes.ok) return json({ error: 'Calendar not found' }, 404);
+
+    const data = (await sesRes.json()) as {
+      programs?: Record<string, { semesters?: { start: string; end: string }[] }>;
     };
-    // Send only the requested program's calendar (still with name + nameEn so
-    // the model can answer in either language — SDD §6.2).
     const programCal = data.programs?.[program];
-    calendarJson = JSON.stringify(programCal ?? {});
+
+    // Filter holidays to the program's date span so the model doesn't cite a
+    // holiday from an unrelated session. ISO YYYY-MM-DD compares lexically.
+    let publicHolidays: unknown[] = [];
+    if (holRes.ok) {
+      const all = (await holRes.json()) as { date: string }[];
+      const sems = programCal?.semesters ?? [];
+      if (sems.length > 0) {
+        const lo = sems.map((s) => s.start).sort()[0];
+        const hi = sems.map((s) => s.end).sort().at(-1)!;
+        publicHolidays = all.filter((h) => h.date >= lo && h.date <= hi);
+      } else {
+        publicHolidays = all;
+      }
+    }
+
+    // Both name + nameEn are retained so the model can answer in either
+    // language (SDD §6.2).
+    calendarJson = JSON.stringify({ academicCalendar: programCal ?? {}, publicHolidays });
   } catch {
     return json({ error: 'Calendar unavailable' }, 502);
   }
