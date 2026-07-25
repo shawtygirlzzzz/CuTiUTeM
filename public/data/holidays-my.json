@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Hari Keputeraan TYT Yang di-Pertua Negeri Melaka",
+    "nameEn": "Birthday of the Governor of Melaka",
+    "date": "2025-08-24",
+    "scope": "melaka"
+  },
+  {
+    "name": "Hari Kebangsaan",
+    "nameEn": "National Day",
+    "date": "2025-08-31",
+    "scope": "national"
+  },
+  {
+    "name": "Maulidur Rasul",
+    "nameEn": "Prophet Muhammad's Birthday",
+    "date": "2025-09-05",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Malaysia",
+    "nameEn": "Malaysia Day",
+    "date": "2025-09-16",
+    "scope": "national"
+  },
+  {
+    "name": "Deepavali",
+    "nameEn": "Deepavali",
+    "date": "2025-10-20",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Krismas",
+    "nameEn": "Christmas Day",
+    "date": "2025-12-25",
+    "scope": "national"
+  },
+  {
+    "name": "Tahun Baharu",
+    "nameEn": "New Year's Day",
+    "date": "2026-01-01",
+    "scope": "national"
+  },
+  {
+    "name": "Tahun Baharu Cina",
+    "nameEn": "Chinese New Year",
+    "date": "2026-02-17",
+    "scope": "national"
+  },
+  {
+    "name": "Tahun Baharu Cina (Hari Kedua)",
+    "nameEn": "Chinese New Year (2nd Day)",
+    "date": "2026-02-18",
+    "scope": "national"
+  },
+  {
+    "name": "Awal Ramadan",
+    "nameEn": "First Day of Ramadan",
+    "date": "2026-02-19",
+    "scope": "melaka"
+  },
+  {
+    "name": "Hari Pengisytiharan Kemerdekaan Melaka",
+    "nameEn": "Declaration of Melaka Independence Day",
+    "date": "2026-02-20",
+    "scope": "melaka"
+  },
+  {
+    "name": "Hari Raya Aidilfitri",
+    "nameEn": "Eidul Fitri",
+    "date": "2026-03-20",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Raya Aidilfitri (Hari Kedua)",
+    "nameEn": "Eidul Fitri (2nd Day)",
+    "date": "2026-03-21",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Pekerja",
+    "nameEn": "Labour Day",
+    "date": "2026-05-01",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Raya Aidiladha",
+    "nameEn": "Eidul Adha",
+    "date": "2026-05-27",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Wesak",
+    "nameEn": "Wesak Day",
+    "date": "2026-05-31",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Keputeraan Rasmi DYMM Yang di-Pertuan Agong",
+    "nameEn": "Birthday of the Yang di-Pertuan Agong",
+    "date": "2026-06-01",
+    "scope": "national"
+  },
+  {
+    "name": "Awal Muharam",
+    "nameEn": "Awal Muharram",
+    "date": "2026-06-16",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Keputeraan TYT Yang di-Pertua Negeri Melaka",
+    "nameEn": "Birthday of the Governor of Melaka",
+    "date": "2026-08-24",
+    "scope": "melaka"
+  },
+  {
+    "name": "Maulidur Rasul",
+    "nameEn": "Prophet Muhammad's Birthday",
+    "date": "2026-08-25",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Kebangsaan",
+    "nameEn": "National Day",
+    "date": "2026-08-31",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Malaysia",
+    "nameEn": "Malaysia Day",
+    "date": "2026-09-16",
+    "scope": "national"
+  },
+  {
+    "name": "Deepavali",
+    "nameEn": "Deepavali",
+    "date": "2026-11-08",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Krismas",
+    "nameEn": "Christmas Day",
+    "date": "2026-12-25",
+    "scope": "national"
+  },
+  {
+    "name": "Tahun Baharu",
+    "nameEn": "New Year's Day",
+    "date": "2027-01-01",
+    "scope": "national"
+  },
+  {
+    "name": "Tahun Baharu Cina",
+    "nameEn": "Chinese New Year",
+    "date": "2027-02-06",
+    "scope": "national"
+  },
+  {
+    "name": "Tahun Baharu Cina (Hari Kedua)",
+    "nameEn": "Chinese New Year (2nd Day)",
+    "date": "2027-02-07",
+    "scope": "national"
+  },
+  {
+    "name": "Awal Ramadan",
+    "nameEn": "First Day of Ramadan",
+    "date": "2027-02-08",
+    "scope": "melaka"
+  },
+  {
+    "name": "Hari Pengisytiharan Kemerdekaan Melaka",
+    "nameEn": "Declaration of Melaka Independence Day",
+    "date": "2027-02-20",
+    "scope": "melaka"
+  },
+  {
+    "name": "Hari Raya Aidilfitri",
+    "nameEn": "Eidul Fitri",
+    "date": "2027-03-10",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Raya Aidilfitri (Hari Kedua)",
+    "nameEn": "Eidul Fitri (2nd Day)",
+    "date": "2027-03-11",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Pekerja",
+    "nameEn": "Labour Day",
+    "date": "2027-05-01",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Raya Aidiladha",
+    "nameEn": "Eidul Adha",
+    "date": "2027-05-17",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Wesak",
+    "nameEn": "Wesak Day",
+    "date": "2027-05-20",
+    "scope": "national"
+  },
+  {
+    "name": "Awal Muharam",
+    "nameEn": "Awal Muharram",
+    "date": "2027-06-06",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Keputeraan Rasmi DYMM Yang di-Pertuan Agong",
+    "nameEn": "Birthday of the Yang di-Pertuan Agong",
+    "date": "2027-06-07",
+    "scope": "national"
+  },
+  {
+    "name": "Maulidur Rasul",
+    "nameEn": "Prophet Muhammad's Birthday",
+    "date": "2027-08-15",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Keputeraan TYT Yang di-Pertua Negeri Melaka",
+    "nameEn": "Birthday of the Governor of Melaka",
+    "date": "2027-08-24",
+    "scope": "melaka"
+  },
+  {
+    "name": "Hari Kebangsaan",
+    "nameEn": "National Day",
+    "date": "2027-08-31",
+    "scope": "national"
+  },
+  {
+    "name": "Hari Malaysia",
+    "nameEn": "Malaysia Day",
+    "date": "2027-09-16",
+    "scope": "national"
+  }
+]

@@ -1,0 +1,312 @@
+{
+  "session": "2025/2026",
+  "sourceUrl": "https://fptt.utem.edu.my/images/PDF/Curriculum/Kalendar%20Akademik%20Sesi%202025%202026%20BI.pdf",
+  "lastUpdated": "2026-07-25",
+  "programs": {
+    "diploma": {
+      "semesters": [
+        {
+          "number": 3,
+          "label": "Semester Khas Awal 2025/2026",
+          "labelEn": "Initial Special Semester 2025/2026",
+          "start": "2025-07-21",
+          "end": "2025-09-12",
+          "events": [
+            {
+              "id": "sp-registration",
+              "name": "Pendaftaran Pelajar Baharu Diploma",
+              "nameEn": "New Diploma Student Registration",
+              "type": "registration",
+              "start": "2025-07-21",
+              "end": "2025-07-21"
+            },
+            {
+              "id": "sp-class",
+              "name": "Sesi Pengajian & Peperiksaan (Semester Khas Awal)",
+              "nameEn": "Instructional Session & Examination (Initial Special Semester)",
+              "type": "class",
+              "start": "2025-07-22",
+              "end": "2025-09-12"
+            }
+          ]
+        },
+        {
+          "number": 1,
+          "label": "Semester 1 2025/2026",
+          "labelEn": "Semester 1 2025/2026",
+          "start": "2025-09-29",
+          "end": "2026-03-15",
+          "events": [
+            {
+              "id": "s1-orientation",
+              "name": "Minggu Orientasi",
+              "nameEn": "Orientation Week",
+              "type": "registration",
+              "start": "2025-09-29",
+              "end": "2025-10-05"
+            },
+            {
+              "id": "s1-class1",
+              "name": "Kuliah (Bahagian I)",
+              "nameEn": "Classes (Part I)",
+              "type": "class",
+              "start": "2025-10-06",
+              "end": "2025-11-21"
+            },
+            {
+              "id": "s1-midsem-break",
+              "name": "Cuti Pertengahan Semester",
+              "nameEn": "Mid-Semester Break",
+              "type": "break",
+              "start": "2025-11-22",
+              "end": "2025-11-30"
+            },
+            {
+              "id": "s1-class2",
+              "name": "Kuliah (Bahagian II)",
+              "nameEn": "Classes (Part II)",
+              "type": "class",
+              "start": "2025-12-01",
+              "end": "2026-01-16"
+            },
+            {
+              "id": "s1-revision",
+              "name": "Minggu Ulangkaji",
+              "nameEn": "Revision Week",
+              "type": "study_week",
+              "start": "2026-01-17",
+              "end": "2026-01-25"
+            },
+            {
+              "id": "s1-final-exam",
+              "name": "Peperiksaan Akhir Semester 1",
+              "nameEn": "Final Examination Semester 1",
+              "type": "exam",
+              "start": "2026-01-26",
+              "end": "2026-02-08"
+            },
+            {
+              "id": "s1-semester-break",
+              "name": "Cuti Semester",
+              "nameEn": "Semester Break",
+              "type": "break",
+              "start": "2026-02-09",
+              "end": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "label": "Semester 2 2025/2026",
+          "labelEn": "Semester 2 2025/2026",
+          "start": "2026-03-16",
+          "end": "2026-10-04",
+          "events": [
+            {
+              "id": "s2-class1",
+              "name": "Kuliah (Bahagian I)",
+              "nameEn": "Classes (Part I)",
+              "type": "class",
+              "start": "2026-03-16",
+              "end": "2026-05-01"
+            },
+            {
+              "id": "s2-midsem-break",
+              "name": "Cuti Pertengahan Semester",
+              "nameEn": "Mid-Semester Break",
+              "type": "break",
+              "start": "2026-05-02",
+              "end": "2026-05-10"
+            },
+            {
+              "id": "s2-class2",
+              "name": "Kuliah (Bahagian II)",
+              "nameEn": "Classes (Part II)",
+              "type": "class",
+              "start": "2026-05-11",
+              "end": "2026-06-26"
+            },
+            {
+              "id": "s2-revision",
+              "name": "Minggu Ulangkaji",
+              "nameEn": "Revision Week",
+              "type": "study_week",
+              "start": "2026-06-27",
+              "end": "2026-07-05"
+            },
+            {
+              "id": "s2-final-exam",
+              "name": "Peperiksaan Akhir Semester 2",
+              "nameEn": "Final Examination Semester 2",
+              "type": "exam",
+              "start": "2026-07-06",
+              "end": "2026-07-19"
+            },
+            {
+              "id": "s2-year-break",
+              "name": "Cuti Antara Sesi Akademik",
+              "nameEn": "Academic Year Break",
+              "type": "break",
+              "start": "2026-07-20",
+              "end": "2026-10-04"
+            }
+          ]
+        }
+      ]
+    },
+    "degree": {
+      "semesters": [
+        {
+          "number": 3,
+          "label": "Semester Khas Awal 2025/2026",
+          "labelEn": "Initial Special Semester 2025/2026",
+          "start": "2025-07-21",
+          "end": "2025-09-12",
+          "events": [
+            {
+              "id": "sp-registration",
+              "name": "Pendaftaran Pelajar Baharu Diploma",
+              "nameEn": "New Diploma Student Registration",
+              "type": "registration",
+              "start": "2025-07-21",
+              "end": "2025-07-21"
+            },
+            {
+              "id": "sp-class",
+              "name": "Sesi Pengajian & Peperiksaan (Semester Khas Awal)",
+              "nameEn": "Instructional Session & Examination (Initial Special Semester)",
+              "type": "class",
+              "start": "2025-07-22",
+              "end": "2025-09-12"
+            }
+          ]
+        },
+        {
+          "number": 1,
+          "label": "Semester 1 2025/2026",
+          "labelEn": "Semester 1 2025/2026",
+          "start": "2025-09-29",
+          "end": "2026-03-15",
+          "events": [
+            {
+              "id": "s1-orientation",
+              "name": "Minggu Orientasi",
+              "nameEn": "Orientation Week",
+              "type": "registration",
+              "start": "2025-09-29",
+              "end": "2025-10-05"
+            },
+            {
+              "id": "s1-class1",
+              "name": "Kuliah (Bahagian I)",
+              "nameEn": "Classes (Part I)",
+              "type": "class",
+              "start": "2025-10-06",
+              "end": "2025-11-21"
+            },
+            {
+              "id": "s1-midsem-break",
+              "name": "Cuti Pertengahan Semester",
+              "nameEn": "Mid-Semester Break",
+              "type": "break",
+              "start": "2025-11-22",
+              "end": "2025-11-30"
+            },
+            {
+              "id": "s1-class2",
+              "name": "Kuliah (Bahagian II)",
+              "nameEn": "Classes (Part II)",
+              "type": "class",
+              "start": "2025-12-01",
+              "end": "2026-01-16"
+            },
+            {
+              "id": "s1-revision",
+              "name": "Minggu Ulangkaji",
+              "nameEn": "Revision Week",
+              "type": "study_week",
+              "start": "2026-01-17",
+              "end": "2026-01-25"
+            },
+            {
+              "id": "s1-final-exam",
+              "name": "Peperiksaan Akhir Semester 1",
+              "nameEn": "Final Examination Semester 1",
+              "type": "exam",
+              "start": "2026-01-26",
+              "end": "2026-02-08"
+            },
+            {
+              "id": "s1-semester-break",
+              "name": "Cuti Semester",
+              "nameEn": "Semester Break",
+              "type": "break",
+              "start": "2026-02-09",
+              "end": "2026-03-15"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "label": "Semester 2 2025/2026",
+          "labelEn": "Semester 2 2025/2026",
+          "start": "2026-03-16",
+          "end": "2026-10-04",
+          "events": [
+            {
+              "id": "s2-class1",
+              "name": "Kuliah (Bahagian I)",
+              "nameEn": "Classes (Part I)",
+              "type": "class",
+              "start": "2026-03-16",
+              "end": "2026-05-01"
+            },
+            {
+              "id": "s2-midsem-break",
+              "name": "Cuti Pertengahan Semester",
+              "nameEn": "Mid-Semester Break",
+              "type": "break",
+              "start": "2026-05-02",
+              "end": "2026-05-10"
+            },
+            {
+              "id": "s2-class2",
+              "name": "Kuliah (Bahagian II)",
+              "nameEn": "Classes (Part II)",
+              "type": "class",
+              "start": "2026-05-11",
+              "end": "2026-06-26"
+            },
+            {
+              "id": "s2-revision",
+              "name": "Minggu Ulangkaji",
+              "nameEn": "Revision Week",
+              "type": "study_week",
+              "start": "2026-06-27",
+              "end": "2026-07-05"
+            },
+            {
+              "id": "s2-final-exam",
+              "name": "Peperiksaan Akhir Semester 2",
+              "nameEn": "Final Examination Semester 2",
+              "type": "exam",
+              "start": "2026-07-06",
+              "end": "2026-07-19"
+            },
+            {
+              "id": "s2-year-break",
+              "name": "Cuti Antara Sesi Akademik",
+              "nameEn": "Academic Year Break",
+              "type": "break",
+              "start": "2026-07-20",
+              "end": "2026-10-04"
+            }
+          ]
+        }
+      ]
+    },
+    "master": {
+      "semesters": []
+    }
+  }
+}
